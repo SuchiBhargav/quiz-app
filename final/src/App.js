@@ -3,30 +3,30 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'which Specialist you want to consult?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'physician', isCorrect: false },
+				{ answerText: 'gynaecologist', isCorrect: false },
+				{ answerText: 'Orthopedician', isCorrect: true },
+				{ answerText: 'Dietitian', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Which symptoms do you have?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Fever', isCorrect: false },
+				{ answerText: 'cold', isCorrect: true },
+				{ answerText: 'back pain', isCorrect: false },
+				{ answerText: 'Pregnancy Queries', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'Health check and lab test',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: 'Full body check', isCorrect: true },
+				{ answerText: 'Diabetes Screening', isCorrect: false },
+				{ answerText: 'Thyroid check', isCorrect: false },
+				{ answerText: 'Covid test', isCorrect: false },
 			],
 		},
 		{
